@@ -1,0 +1,55 @@
+/* 
+
+This is your stylesheet, it's been pre-configured with basic 
+settings and resets that is needed.
+
+The star(*) represents all elements.
+
+*/
+
+*,
+body,
+div {
+  box-sizing: border-box; /* Makes sure that all elements has same box-sizing preference */
+  margin: 0; /* To avoid unwanted default margins */
+  padding: 0; /* To avoid unwanted default paddings */
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  -webkit-font-smoothing: antialiased; /* Makes the text look "smoother" */
+  -moz-osx-font-smoothing: grayscale; /* Makes the text look "smoother" in Firefox */
+}
+
+/* Below are some of the elements that should be a part of your 
+handoff, fill in the styles and add those who are missing*/
+
+h1 {
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+h5 {
+}
+h6 {
+}
+
+p {
+  color: red;
+}
+
+a {
+}
+a:hover {
+  color: red; /* This is the syntax for hover styling */
+}
+
+img {
+  max-width: 500px; /* Constraining the image to be maximum 500px wide */
+}
+
+@media (min-width: 768px) {
+}
